@@ -119,6 +119,7 @@ def test_update_new_pet():
 
 #@pytest.mark.skip()
 def test_delete_new_pet():
+    # test to delete newly added pet
     url = petstore_swagger_url+"/v2/pet/"+str(new_pet_id)
     headers = {"api_key": api_key}
     response = requests.delete(url=url, headers=headers)
