@@ -2,7 +2,8 @@
 API automated check over PET store https://petstore.swagger.io
 
 ## Prerequisites  
-- Python 3
+- Install Python 3
+- Install pip
 
 
 ## Instructions on how to add to integration testing to TeamCity
